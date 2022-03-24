@@ -1,11 +1,12 @@
 # Criação do arquivo de ordem para execução
 
-# Criação do arquivo migration UF
-php artisan make:migration create_uf_table --create=uf
-php artisan make:migration create_organizacao_table --create=organizacao
-php artisan make:migration create_usuario_table --create=usuario
-php artisan make:migration create_pessoa_table --create=pessoa
-php artisan make:migration create_regional_table --create=regional
+# Criação de arquivos migration
+php artisan make:migration create_table_uf --path=database/migrations/admin
+php artisan make:migration create_table_organizacao --path=database/migrations/admin
+php artisan make:migration create_table_usuario --path=database/migrations/admin
+php artisan make:migration create_table_pessoa --path=database/migrations/admin
+
+
 
 
 
