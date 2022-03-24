@@ -1,1 +1,10 @@
+# Comando Laravel
+# Criando projeto
+composer create-project laravel/laravel example-app
+
+cd example-app
+ 
+php artisan serve --port=8080
+
+# Comando: Migrate
 
